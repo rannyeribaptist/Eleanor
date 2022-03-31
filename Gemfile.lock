@@ -99,12 +99,15 @@ GEM
     mimemagic (0.3.5)
     mini_mime (1.0.2)
     minitest (5.14.1)
+    msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nokogiri (1.11.0.rc2-x64-mingw32)
+    nokogiri (1.11.0.rc2-x86_64-linux)
     orm_adapter (0.5.0)
+    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
-    puma (4.3.5)
+    puma (4.3.12)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -188,6 +191,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -199,7 +203,7 @@ DEPENDENCIES
   devise_token_auth
   filterrific
   pg (>= 0.18, < 2.0)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3, >= 6.0.3.2)
   rails-erd
   rolify
